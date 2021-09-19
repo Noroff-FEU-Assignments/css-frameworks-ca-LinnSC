@@ -1,0 +1,20 @@
+.list-group {
+  margin-top: 2rem;
+  @media (min-width: 768px) {
+    margin-top: 0;
+  }
+}
+
+.list-group-item {
+  display: flex;
+
+  i {
+    margin: -2px 20px 0 0;
+    font-size: 24px;
+    color: $colour-text;
+  }
+
+  p {
+    line-height: 10px;
+  }
+}

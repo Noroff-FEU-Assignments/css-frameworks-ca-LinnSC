@@ -167,12 +167,19 @@ $form-check-min-height: 33px;
 $form-check-padding-start: 50px;
 $form-check-margin-bottom: 1rem;
 
-$form-check-input-bg: white;
+$form-check-input-bg: $colour-primary;
 $form-check-input-border: none;
 $form-check-input-border-radius: 4px;
 
 $form-check-input-focus-border: transparent;
 $form-check-input-focus-box-shadow: transparent;
 
-$form-check-input-checked-color: $colour-primary;
+$form-check-input-checked-color: white;
 $form-check-input-checked-bg-color: $colour-primary;
+
+// List group
+
+// scss-docs-start list-group-variables
+$list-group-color: $colour-text;
+$list-group-bg: transparent;
+$list-group-border-color: transparent;

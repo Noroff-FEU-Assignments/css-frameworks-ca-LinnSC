@@ -1,4 +1,8 @@
 form {
+  background: $colour-secondary;
+  padding: 2rem;
+  box-shadow: 0 16px 22px rgba(0, 0, 0, 0.19);
+
   .form-check-input {
     margin-top: 1rem;
   }
@@ -30,5 +34,5 @@ form {
 .input-group-text {
   color: white;
 
-  background-color: $colour-text;
+  background-color: $colour-grey;
 }
