@@ -2,6 +2,8 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import PaginationContent from "./PaginationContent";
 
+import CardsContent from "./CardsContent";
+
 function News() {
   return (
     <div className="page-wrapper">
@@ -13,7 +15,9 @@ function News() {
       <Container>
         <PaginationContent />
       </Container>
-      <Container></Container>
+      <Container>
+        <CardsContent />
+      </Container>
       <Container>
         <PaginationContent />
       </Container>

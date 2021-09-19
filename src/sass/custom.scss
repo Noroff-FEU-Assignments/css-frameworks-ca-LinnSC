@@ -1,4 +1,6 @@
 // custom
+
+// Colours
 $colour-primary: #e92569;
 $colour-secondary: #efefef;
 $colour-grey: #c7c7c7;
@@ -19,8 +21,13 @@ $colour-dark: #0a0a0a;
 //     rgba(229, 229, 229, 1) 100%
 //   );
 
+// Font family
 $primary-font-family: "Lato", sans-serif;
 $secondary-font-family: "Playfair Display", serif;
+
+// Typography
+$h1-font-size: 2rem;
+$h5-font-size: 19px;
 
 //bootstrap
 $theme-colors: (
@@ -46,6 +53,20 @@ $navbar-dark-hover-color: $colour-dark;
 $navbar-dark-active-color: $colour-dark;
 $navbar-dark-brand-color: $colour-primary;
 $navbar-dark-brand-hover-color: $colour-primary;
+
+// Carousel
+
+// scss-docs-start carousel-variables
+$carousel-control-color: transparent;
+
+$carousel-control-hover-opacity: transparent;
+
+$carousel-indicator-height: 30px;
+
+$carousel-indicator-spacer: 5px;
+$carousel-indicator-opacity: 1;
+$carousel-indicator-active-bg: white;
+$carousel-indicator-active-opacity: 1;
 
 // Accordion
 
@@ -93,3 +114,65 @@ $pagination-active-border-color: $colour-primary;
 
 $pagination-border-radius-sm: 5px;
 $pagination-border-radius-lg: 5px;
+
+// Cards
+
+// scss-docs-start card-variables
+$card-spacer-y: 1.5rem;
+$card-spacer-x: 1.5rem;
+$card-title-spacer-y: 10px;
+$card-border-width: 0;
+$card-border-color: transparent;
+$card-border-radius: 10px;
+$card-bg: white;
+
+// Buttons
+//
+// For each of Bootstrap's buttons, define text, background, and border color.
+
+// scss-docs-start btn-variables
+
+$btn-font-size: 1rem;
+$btn-border-radius: 4px;
+$btn-border-width: 0;
+$btn-focus-box-shadow: transparent;
+$btn-active-box-shadow: transparent;
+$btn-box-shadow: 0;
+$btn-focus-width: 0;
+
+// Forms
+
+// // scss-docs-start form-label-variables
+$form-label-margin-bottom: 2px;
+$form-label-font-size: 20px;
+
+$form-label-font-weight: 600;
+
+// scss-docs-start form-input-variables
+$input-padding-y: 10px;
+$input-font-size: 1rem;
+$input-bg: white;
+
+$input-border-color: transparent;
+$input-border-width: 0;
+$input-box-shadow: transparent;
+
+$input-focus-border-color: transparent;
+$input-focus-color: $colour-text;
+$input-focus-box-shadow: 0;
+
+// scss-docs-start form-check-variables
+$form-check-input-width: 33px;
+$form-check-min-height: 33px;
+$form-check-padding-start: 50px;
+$form-check-margin-bottom: 1rem;
+
+$form-check-input-bg: white;
+$form-check-input-border: none;
+$form-check-input-border-radius: 4px;
+
+$form-check-input-focus-border: transparent;
+$form-check-input-focus-box-shadow: transparent;
+
+$form-check-input-checked-color: $colour-primary;
+$form-check-input-checked-bg-color: $colour-primary;

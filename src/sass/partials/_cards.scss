@@ -1,0 +1,43 @@
+.col-lg-3.col-md-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin-top: 1.5rem;
+  box-shadow: 0 16px 22px rgba(0, 0, 0, 0.19);
+  h5 {
+    font-family: $primary-font-family !important;
+    color: $colour-dark;
+    font-weight: 600;
+  }
+
+  .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 1.5rem;
+  }
+
+  .btn-primary {
+    color: white;
+    width: 100%;
+    height: 46px;
+    position: relative;
+
+    &::after {
+      content: "";
+      width: 32px;
+      height: 46px;
+      background-color: $colour-text;
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-radius: 0 4px 4px 0;
+    }
+
+    &:hover {
+      color: white;
+    }
+  }
+}
