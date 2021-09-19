@@ -1,0 +1,40 @@
+// custom
+$colour-primary: #e92569;
+$colour-secondary: #efefef;
+$colour-grey: #c7c7c7;
+
+$colour-offWhite: #e5e5e5;
+$colour-text: #767676;
+$colour-dark: #0a0a0a;
+
+$primary-font-family: "Lato", sans-serif;
+$secondary-font-family: "Playfair Display", serif;
+
+//bootstrap
+$theme-colors: (
+  "primary": $colour-primary,
+  "dark": $colour-secondary,
+);
+
+$font-family-sans-serif: $primary-font-family;
+$headings-font-family: $secondary-font-family;
+$headings-color: $colour-primary;
+
+// scss-docs-start nav-variables
+
+$nav-link-font-size: 16px;
+$nav-link-font-weight: 500;
+$nav-link-color: $colour-primary;
+
+$body-bg: $colour-secondary;
+$body-color: $colour-text;
+
+$navbar-dark-color: $colour-dark;
+$navbar-dark-hover-color: $colour-dark;
+$navbar-dark-active-color: $colour-dark;
+$navbar-dark-brand-color: $colour-primary;
+$navbar-dark-brand-hover-color: $colour-primary;
+// $link-color:                              $primary !default;
+// $link-hover-color:                        shift-color($link-color, $link-shade-percentage) !default;
+
+// $input-btn-font-size:         $font-size-base !default;
