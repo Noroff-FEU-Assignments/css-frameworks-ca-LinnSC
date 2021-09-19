@@ -19,48 +19,46 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <Router>
-      <div>
-        <Navbar bg="dark" expand="lg" variant="dark">
-          <Container>
-            <Navbar.Brand href="#home">The YAY Company</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
-                <NavLink exact to="/" className="nav-link">
-                  Home
-                </NavLink>
-                <NavLink to="/news" className="nav-link">
-                  News
-                </NavLink>
-                <NavLink to="/contact" className="nav-link">
-                  Contact
-                </NavLink>
-              </Nav>
-              <Form className="d-flex">
-                <Form.Control
-                  type="search"
-                  placeholder="Search"
-                  className="mr-2"
-                  aria-label="Search"
-                />
-                <Button variant="outline-success">Search</Button>
-              </Form>
-            </Navbar.Collapse>
-          </Container>
-        </Navbar>
+      <Navbar bg="dark" expand="lg" variant="dark">
+        <Navbar.Brand href="#home">The YAY Company</Navbar.Brand>
 
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/news">
-            <News />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-        </Switch>
-      </div>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <NavLink exact to="/" className="nav-link">
+              Home
+            </NavLink>
+            <NavLink to="/news" className="nav-link">
+              News
+            </NavLink>
+            <NavLink to="/contact" className="nav-link">
+              Contact
+            </NavLink>
+          </Nav>
+          <Form className=" d-flex">
+            <Form.Control
+              type="search"
+              placeholder="Search"
+              className="mr-2"
+              aria-label="Search"
+            />
+            <Button variant="outline-success">Go</Button>
+          </Form>
+        </Navbar.Collapse>
+      </Navbar>
+
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/news">
+          <News />
+        </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
+      </Switch>
+
       <Footer />
     </Router>
   );

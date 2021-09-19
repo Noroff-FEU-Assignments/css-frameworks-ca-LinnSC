@@ -7,6 +7,18 @@ $colour-offWhite: #e5e5e5;
 $colour-text: #767676;
 $colour-dark: #0a0a0a;
 
+// $colour-accordion: radial-gradient(
+//   circle,
+//   rgba(255, 255, 255, 1) 0%,
+//   rgba(245, 245, 245, 1) 100%
+// );
+
+// $colour-background: radial-gradient(
+//     circle,
+//     rgba(255, 255, 255, 1) 0%,
+//     rgba(229, 229, 229, 1) 100%
+//   );
+
 $primary-font-family: "Lato", sans-serif;
 $secondary-font-family: "Playfair Display", serif;
 
@@ -20,21 +32,64 @@ $font-family-sans-serif: $primary-font-family;
 $headings-font-family: $secondary-font-family;
 $headings-color: $colour-primary;
 
+// $body-bg: $colour-background;
+$body-color: $colour-text;
+
 // scss-docs-start nav-variables
 
 $nav-link-font-size: 16px;
 $nav-link-font-weight: 500;
 $nav-link-color: $colour-primary;
 
-$body-bg: $colour-secondary;
-$body-color: $colour-text;
-
 $navbar-dark-color: $colour-dark;
 $navbar-dark-hover-color: $colour-dark;
 $navbar-dark-active-color: $colour-dark;
 $navbar-dark-brand-color: $colour-primary;
 $navbar-dark-brand-hover-color: $colour-primary;
-// $link-color:                              $primary !default;
-// $link-hover-color:                        shift-color($link-color, $link-shade-percentage) !default;
 
-// $input-btn-font-size:         $font-size-base !default;
+// Accordion
+
+// scss-docs-start accordion-variables
+
+// $accordion-bg: $colour-accordion;
+$accordion-border-color: none;
+$accordion-border-radius: 10px;
+$accordion-body-padding-y: 25px;
+$accordion-body-padding-x: 40px;
+$accordion-button-color: $colour-primary;
+$accordion-button-bg: white;
+$accordion-button-active-bg: white;
+$accordion-button-active-color: $colour-primary;
+$accordion-button-focus-border-color: none;
+$accordion-button-focus-box-shadow: none;
+$accordion-icon-color: transparent;
+$accordion-icon-active-color: transparent;
+
+// Pagination
+
+// scss-docs-start pagination-variables
+$pagination-padding-y: 10px;
+$pagination-padding-x: 20px;
+
+$pagination-color: $colour-primary;
+$pagination-bg: white;
+$pagination-border-width: 2px;
+$pagination-border-radius: 5px;
+
+$pagination-border-color: $colour-primary;
+
+$pagination-focus-color: white;
+$pagination-focus-bg: $colour-primary;
+$pagination-focus-box-shadow: none;
+$pagination-focus-outline: none;
+
+$pagination-hover-color: white;
+$pagination-hover-bg: $colour-primary;
+$pagination-hover-border-color: $colour-primary;
+
+$pagination-active-color: white;
+$pagination-active-bg: $colour-primary;
+$pagination-active-border-color: $colour-primary;
+
+$pagination-border-radius-sm: 5px;
+$pagination-border-radius-lg: 5px;

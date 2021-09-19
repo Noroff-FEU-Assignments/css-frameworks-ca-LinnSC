@@ -1,0 +1,32 @@
+.accordion {
+  box-shadow: 0 16px 22px rgba(0, 0, 0, 0.19);
+  h2 {
+    font-size: 19px;
+    font-family: $primary-font-family !important;
+  }
+
+  .accordion-body {
+    border-top: 2px solid $colour-primary;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+
+    background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(245, 245, 245, 1) 100%
+    );
+  }
+
+  i {
+    font-size: 25px;
+    margin-right: 15px;
+    color: $colour-dark;
+  }
+  .share {
+    font-size: 1rem;
+    font-style: normal;
+    text-transform: uppercase;
+  }
+}

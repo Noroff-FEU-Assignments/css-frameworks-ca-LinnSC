@@ -1,0 +1,15 @@
+.carousel {
+  ol {
+    li {
+      background-color: white;
+      height: 30px;
+      width: 30px;
+      margin: 0 0.5rem;
+      border-radius: 2px;
+
+      &.active {
+        background-color: $colour-primary;
+      }
+    }
+  }
+}
